@@ -1,27 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
 * {
-  padding: 0;
   margin: 0;
-  box-sizing: border-box;
   font-family: "Quicksand";
+  color: #333;
 }
-
-.nav {
+.navbar {
+  padding: 20px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  background-color: aqua;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  justify-content: space-between;
 }
-
-.nav ul {
-  list-style: none;
-  display: flex;
+.navbar h1 {
+  color: #f1356d;
 }
-
-.nav ul li {
-  margin: 1rem;
-  font-size: 1.3rem;
+.navbar .links {
+  margin-left: auto;
 }
-.nav ul li a {
+.navbar a {
+  margin-left: 16px;
   text-decoration: none;
+  padding: 6px;
 }
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/*  Book - preview  */
+
+.book-preview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem ;
+  border-bottom: solid 1px #f1356d;
+  padding-bottom: 1px;
+}
+

@@ -1,10 +1,17 @@
-import './App.css';
-import Navbar from './components/navbar';
+import Home from './components/Home'
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <header className="App-header">
+        <Navbar/>
+       
+      </header>
+     <div className="content">
+     <Home />
+     </div>
+     
     </div>
   );
 }
